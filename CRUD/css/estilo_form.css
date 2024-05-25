@@ -1,0 +1,78 @@
+/* 
+    Document   : estilo_form
+    Created on : 27/05/2013, 22:52:58
+    Author     : jp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.4em; 
+	background-color: #f7f7f7;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+h1{
+    
+    text-align: center;
+}
+
+.box_pesq{
+    text-align: center;
+    width:550px;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	margin:0 auto;
+        
+}
+.box{
+    width:550px;
+	border-collapse: collapse;
+	border: 2px solid #000;
+	margin:1px auto;
+       font-size: 18px;
+}
+
+
+table {
+	width:550px;
+	border-collapse: collapse;
+	border: 2px solid #000;
+	margin:0 auto;
+	}
+caption { 
+	text-align: center;
+	margin-bottom: 0.3em;
+	border-bottom: 1px solid #333;
+	padding-right: 0.3em;
+}
+thead tr th {
+	text-align:center;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	}
+tr td, tr th {
+	padding: 1px 5px;
+	text-align:left;
+	font-size: 0.9em;
+	border: 1px dotted #333;
+	} 
+tfoot tr td {
+	text-align:center;
+	border-top: 2px solid #000;
+	}
+/* CSS para efeitos jQuery */
+.impar {background:#add6ef;}
+
+/* continuação para o exemplo 2*/
+.par {background:#d6e2e5;}
+/* Este atributo será usado quando o mouse estiver sobre a linha da tabela */
+.destacar {
+	background:#444; 
+	color:#fff;
+	}
+
