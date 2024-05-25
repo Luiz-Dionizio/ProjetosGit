@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora{
+    margin-top: 150px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(158, 199, 226);
+    border-radius: 25px;
+    border: 1px solid #000;
+    box-shadow: 0.5px 0.5px 10px 5px rgb(31, 31, 31) ;
+}
+
+.telavisor{
+    margin-top: 50px;
+}
+
+.telvisor{
+    width: 500px;
+    height: 75px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 1px 1px 10px 2px rgb(31, 31, 31) ;
+    text-align: right;
+}
+.teclado{
+    display: flex;
+}
+.tecladonumerico{
+    margin-top: 60px;
+    margin-right: 2px;
+    width: 350px;
+    height: 400px;
+}
+.tecladooperacao{
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.botao7{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao8{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao9{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao4{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao5{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao6{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao1{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao2{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao3{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botao0{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+
+.botaoC{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoCE{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoMulti{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoDivisor{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoMenos{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoMais{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}
+.botaoResult{
+    background-color: rgb(69, 69, 163);
+    color: white;
+    width: 160px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px 2px rgb(31, 31, 31) ;
+}

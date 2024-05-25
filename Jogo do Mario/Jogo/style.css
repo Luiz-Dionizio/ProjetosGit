@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Reem+Kufi+Ink&display=swap');
+body{
+    background-image: linear-gradient(to right, #6FA8DE, #6FCBDE);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.telajogo{
+    width: 50%;
+    height: 600px;
+    border: 20px solid black;
+    margin: 0 auto;
+    margin-top: 150px;
+    overflow: hidden;
+    background: linear-gradient( rgba(0,212,255,1) 0%, rgba(76,237,238,1) 40%, rgba(255,255,255,1) 100%);
+    position: relative;
+}
+
+.chao{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-image: url(../imagens/ChãoMario.jpg);
+    background-size: 3%;
+}
+
+.cano{
+    position: absolute;
+    bottom: 90px;
+    width: 55px;
+    margin-left: 0.1%;
+    animation: cano-andando 1.5s linear infinite;
+}
+
+.mario{
+    position: absolute;
+    width: 70px;
+    bottom: 90px;
+    margin-left: 100px;
+}
+
+.nuvem1{
+    position: absolute;
+    width: 400px;
+    margin-right: 100px;
+    animation: movimento-nuvem1 12s linear infinite;
+}
+
+.nuvem2{
+    position: absolute;
+    width: 400px;
+    bottom: 250px;
+    margin-left: 425px;
+    animation: movimento-nuvem2 8s linear infinite;
+}
+
+.pular{
+    animation: pular 0.5s;
+}
+
+.contador{
+    position: absolute;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: "Bungee Spice", sans-serif;;
+}
+
+.btnReiniciar{
+    position: relative;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+
+.btnReiniciar button {
+    visibility: hidden;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.pontosTot{
+    visibility: hidden;
+    position: relative;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+@keyframes cano-andando{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -170px;
+    }
+}
+
+@keyframes pular{
+    40%{
+        bottom: 200px;
+    }
+    50%{
+        bottom: 205px;
+    }
+    60%{
+        bottom: 200px;
+    } 
+}
+
+@keyframes movimento-nuvem1{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -450px;
+    }
+}
+
+@keyframes movimento-nuvem2{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -450px;
+    }
+}

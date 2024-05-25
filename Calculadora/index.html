@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+
+    <center> 
+        <div class="calculadora">
+
+            <div class="telavisor">
+
+                <input type="text" placeholder="0" id="visor" class="telvisor" disabled>
+
+            </div>
+
+	        <div class="teclado">
+
+                <div class="tecladonumerico">
+
+                    <button class="botao7" onclick="pegarnumero(this.value)" value="7">7</button>   
+                    <button class="botao8" onclick="pegarnumero(this.value)" value="8">8</button>
+                    <button class="botao9" onclick="pegarnumero(this.value)" value="9">9</button>
+                    <br><br>
+                    <button class="botao4" onclick="pegarnumero(this.value)" value="4">4</button>   
+                    <button class="botao5" onclick="pegarnumero(this.value)" value="5">5</button>
+                    <button class="botao6" onclick="pegarnumero(this.value)" value="6">6</button>
+                    <br><br>
+                    <button class="botao1" onclick="pegarnumero(this.value)" value="1">1</button>   
+                    <button class="botao2" onclick="pegarnumero(this.value)" value="2">2</button>
+                    <button class="botao3" onclick="pegarnumero(this.value)" value="3">3</button>
+                    <br><br>
+                    <button class="botao0" onclick="pegarnumero(this.value)" value="0">0</button>
+                    <br>
+
+                </div>
+
+                <div class="tecladooperacao">
+                
+                    <button class="botaoCE" onclick="limpasoummesmo()">CE</button>
+                    <button class="botaoC" onclick="limpatudo()">C</button>
+                    <br><br>
+                    <button class="botaoMulti" onclick="pegarnumero(this.value)" value="*">x</button>
+                    <button class="botaoDivisor" onclick="pegarnumero(this.value)" value="/">/</button>
+                    <br><br>
+                    <button class="botaoMenos" onclick="pegarnumero(this.value)" value="-">-</button>
+                    <button class="botaoMais" onclick="pegarnumero(this.value)" value="+">+</button>
+                    <br><br>
+                    <button class="botaoResult" onclick="calculate()" value="=">=</button>
+
+                </div>
+            </div>
+        </div>
+    </center>
+    
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
